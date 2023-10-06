@@ -27,7 +27,7 @@ int task5_4(int x){ //++
     task5_4(x / 10);
 }
 
-int task5_5(){ // ne robit
+int task5_5(){ //printf
     int x;
     scanf("%d", &x);
     if(x == -1) return 0;
@@ -53,5 +53,7 @@ double task5_8(int n){
 }
 
 int main(){
-	printf("hello  world")
+    int x, y;
+    scanf("%d%d", &x,&y);
+    printf("%d", task5_1(x))
 }

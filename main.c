@@ -128,14 +128,6 @@ long long power(long long x, int y){
     return k;
 }
 
-int task4_6(int x, int y, int z, int w){
-    int c = x * w + y * z, s = y * w;
-    c /= base_euclid(y,w);
-    s /= base_euclid(y, w);
-    printf("%d/%d\n", c, s);
-    return 0;
-}
-
 int main(){
     printf("%d\n",task5_5(0));
     }
